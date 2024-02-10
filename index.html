@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <script src="./libs/aframe.min.js"></script>
+    <script src="./libs/aframe-ar.js"></script>
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs>
+        <a-marker type="pattern" url="./marker/pattern-LogoVollRand.patt">
+            <a-entity
+            position="0 0 0"
+            scale="0.05 0.05 0.05"
+            gltf-model="./scenes/Karli1.gltf"
+            ></a-entity>
+        </a-marker>
+        <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>

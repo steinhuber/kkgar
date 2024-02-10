@@ -1,0 +1,172 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 120490,
+      "max": [
+        46.86354446411133,
+        111.13546752929688,
+        5.0
+      ],
+      "min": [
+        -51.808284759521484,
+        -92.02684020996094,
+        -5.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 120490,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 120490,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 354090,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3855680,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1416360,
+      "byteOffset": 3855680,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5272040,
+      "uri": "Karli1.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "M_01___Defaultbasecolortexture.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_01___Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ImageToStl.com_karli-logoneu",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "ImageToStl.com_karli-logoneu"
+    },
+    {
+      "children": [
+        0
+      ],
+      "matrix": [
+        5.426882266998292,
+        0.0,
+        2.484125793955627e-08,
+        0.0,
+        -1.431736396106942e-10,
+        5.426792144775391,
+        0.03127806633710861,
+        0.0,
+        -2.484084582476953e-08,
+        -0.03127806633710861,
+        5.426792144775391,
+        0.0,
+        0.0,
+        0.0,
+        -2.25708664855957,
+        1.0
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "texture_source0_sampler0",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
